@@ -1,60 +1,66 @@
-
-
-
-#accent-logo{
-  background: linear-gradient(to right, rgb(224,236,255) 0, white 10%, rgb(224,236,255) 20% );
+#accent-logo {
+  background: linear-gradient(
+    to right,
+    rgb(224, 236, 255) 0,
+    white 10%,
+    rgb(224, 236, 255) 20%
+  );
   background-position: 0;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation:move 2s infinite linear;
-  animation-fill-mode:forwards;
+  animation: move 2s infinite linear;
+  animation-fill-mode: forwards;
 }
-.dental-logo-title{
+.dental-logo-title {
   gap: 20px;
 }
 
-#logo-subtitle{
-  font-size:30px;
-  font-weight:800;
+#logo-subtitle {
+  font-size: 30px;
+  font-weight: 800;
   border-bottom: 20px;
   margin: 0;
   color: #4397f7;
   font-size: 22px;
   font-family: Manrope, Arial;
-  }
-@keyframes move{
-
-  0%{ 
-    background-position:0;
-
+}
+@keyframes move {
+  0% {
+    background-position: 0;
   }
 
-  50%{ 
+  50% {
     background-position: 160px;
   }
 
-  100%{
-    background-position:356px;
+  100% {
+    background-position: 356px;
   }
 }
 .dental-logo {
-  font-size:30px;
-  font-weight:800;
-  color:rgb(2,119,251);
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(2, 119, 251);
   border-bottom: 20px;
   margin: 0;
- 
 }
-.dental-logo,#accent-logo{
-  background: linear-gradient(to right, rgb(2,119,251) 0,  rgb(224,236,255) 5%, rgb(2,119,251) 20% );
+.dental-logo,
+#accent-logo {
+  background: linear-gradient(
+    to right,
+    rgb(2, 119, 251) 0,
+    rgb(224, 236, 255) 5%,
+    rgb(2, 119, 251) 20%
+  );
   background-position: 0;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation:move 20s infinite linear;
-  animation-fill-mode:forwards;}
+  animation: move 20s infinite linear;
+  animation-fill-mode: forwards;
+}
 #logo-image {
-  width:45px;
+  width: 45px;
   mix-blend-mode: multiply;
 }
