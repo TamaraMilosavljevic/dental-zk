@@ -1,0 +1,155 @@
+body{
+  background: linear-gradient(180deg, rgb(230, 238, 251), rgb(239, 245, 254),rgba(255,255,255,1));
+  background-attachment: fixed; /*edit*/
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+}
+p{
+  font-family:Manrope, Arial;
+  font-weight: 500;
+  text-align: center;
+  display:inline-block;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media all and (max-width:480px) {
+  #customer-reviews{
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .review-card{
+    font-size: 10px;
+    line-height: 16px;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+  }
+  
+  #headline-reviews{
+    font-size: 18px;
+  }
+
+   #left-section{
+    padding-top:30px;
+    padding-bottom:20px;
+   }
+   .dental-logo-title{
+    flex-wrap: wrap;
+   }
+   #logo-subtitle{
+    display:block;
+   }
+
+   #navigation-section{
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top:20px;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    padding-bottom:20px;
+   }
+
+  button{ 
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+      }
+  
+
+  #banner-text{
+    font-size: 40px;
+    flex-wrap: wrap;
+    position:absolute;
+  }
+
+  #banner-button{
+    background-size: 24px;
+    position:absolute;
+    top:170px;
+    right:290px;
+  }
+
+  #image-section{
+    display:none;
+  }
+
+
+  #main-section{
+    position:relative;
+  }
+ 
+  #subheading-main{
+    display:none;
+  }
+
+  #headline-prices {
+    font-size: 30px !important; /* Adjust the font size as needed */
+  }
+
+  #services-prices-list,.services-prices-list-left,   
+  .services-prices-list-right{
+    display:flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+
+    width: 50%;
+    
+    padding: 10px 10px 10px 50px;
+    align-items: center;  
+
+    border-radius:8%;
+  
+  }
+    
+  .services-prices-list-left,   
+  .services-prices-list-right{
+   font-size:12px!important;
+  }
+    
+
+    #footer{
+      flex-wrap: wrap;
+      width:100%;
+      
+
+      
+    }
+
+  #contact-us{
+      flex-wrap: wrap;
+  }
+
+  #how-to{
+    font-size:16px;
+    display:flex;
+    top:200px;
+    align-items:center;  }
+
+
+  #working-hours,#address,#phone-number{
+    font-size: 12px;
+    text-align: left;
+    bottom:50px;
+
+}
+
+  #map{
+    object-fit: contain;
+    resize: horizontal 200px;
+   }
+
+
+
+}
