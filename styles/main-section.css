@@ -5,7 +5,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding-bottom: 150px;
+  padding-bottom: 9.375rem;
 }
 
 #information-section {
@@ -22,11 +22,11 @@
 #subheading-main,
 #schedule-appointment-button {
   font-family: Manrope, Arial;
-  row-gap: 20px;
+  row-gap: 1.25rem;
 }
 
 #banner-text {
-  font-size: 100px;
+  font-size: 6.25rem;
   width: 100%;
   color: rgb(14, 34, 73);
   font-weight: 800;
@@ -34,9 +34,9 @@
 }
 
 #subheading-main {
-  font-size: 25px;
+  font-size: 1.563rem;
   color: rgb(145, 161, 187);
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   margin-top: 0;
   justify-self: left;
   text-align: start;
@@ -61,20 +61,20 @@
   cursor: pointer;
   transition: box-shadow 0.15s;
   vertical-align: top;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   box-sizing: border-box;
   position: static;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='whitesmoke' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z' /%3E%3C/svg%3E");
-  background-size: 35px;
+  background-size: 2.188rem;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #schedule-appointment-button:hover {
-  box-shadow: 1px 0px 3px rgba(14, 34, 73, 0.444);
+  box-shadow: 0.063rem 0px 0.188rem rgba(14, 34, 73, 0.444);
 }
 
 #image-section {
@@ -93,8 +93,8 @@
 
 #zoki-image {
   position: absolute;
-  top: 50px;
-  left: 100px;
+  top: 3.125rem;
+  left: 6.25rem;
   z-index: 1;
   width: 100%;
   mask-image: linear-gradient(
@@ -106,8 +106,8 @@
 
 #wave {
   position: absolute;
-  top: 580px;
-  left: 300px;
+  top: 36.25rem;
+  left: 18.75rem;
   z-index: 2;
   width: 100%;
 }

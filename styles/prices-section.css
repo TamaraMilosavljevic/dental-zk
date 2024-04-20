@@ -5,8 +5,8 @@
   align-items: center;
 
   font-family: Manrope, Arial;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
 
   pointer-events: none;
 }
@@ -16,26 +16,26 @@
 }
 
 #headline-prices {
-  font-size: 70px;
+  font-size: 4.375rem;
   font-weight: 800;
 
   flex: 1;
 
   text-align: center;
   color: #0e2249;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 #prices-containter {
   display: flex;
   align-items: center;
-  row-gap: 100px;
+  row-gap: 6.25rem;
 }
 
 .services-prices-list-left {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 1.25rem;
 
   border: none;
 
@@ -45,7 +45,7 @@
   align-items: center;
   background-color: rgba(255, 255, 255, 0.471);
   color: rgb(14, 34, 73);
-  padding: 20px 60px 20px 100px;
+  padding: 1.25rem 3.75rem 1.25rem 6.25rem;
 }
 
 #services-prices-list {
@@ -56,15 +56,15 @@
   border: none;
   border-radius: 8%;
   font-weight: 400;
-  font-size: 20px;
-  box-shadow: 3px 5px 60px rgba(145, 161, 187, 0.243);
+  font-size: 1.25rem;
+  box-shadow: 0.188rem 0.313rem 3.75rem rgba(145, 161, 187, 0.243);
   background-image: url('data:image/svg+xml,<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="900" height="600" fill="%23E0ECFE"></rect><defs><linearGradient id="grad1_0" x1="33.3%" y1="100%" x2="100%" y2="0%"><stop offset="20%" stop-color="%23e0ecfe" stop-opacity="1"></stop><stop offset="80%" stop-color="%23e0ecfe" stop-opacity="1"></stop></linearGradient></defs><defs><linearGradient id="grad2_0" x1="0%" y1="100%" x2="66.7%" y2="0%"><stop offset="20%" stop-color="%23e0ecfe" stop-opacity="1"></stop><stop offset="80%" stop-color="%23e0ecfe" stop-opacity="1"></stop></linearGradient></defs><g transform="translate(900, 600)"><path d="M-486.7 0C-459.9 -76.5 -433 -153 -395.8 -228.5C-358.6 -304 -311.1 -378.7 -243.4 -421.5C-175.7 -464.4 -87.8 -475.6 0 -486.7L0 0Z" fill="%23DAE0F2"></path></g><g transform="translate(0, 0)"><path d="M486.7 0C444.6 67.7 402.5 135.4 367.2 212C331.9 288.6 303.4 374.3 243.4 421.5C183.3 468.8 91.7 477.8 0 486.7L0 0Z" fill="%23DAE0F2"></path></g></svg>');
 }
 
 .services-prices-list-right {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 1.25rem;
 
   border: none;
 
@@ -73,7 +73,7 @@
   align-items: center;
   background-color: rgba(255, 255, 255, 0.471);
   color: rgb(14, 34, 73);
-  padding: 20px 100px 20px 60px;
+  padding: 1.25rem 6.25rem 1.25rem 3.75rem;
 }
 
 .service-list {
@@ -81,11 +81,11 @@
   flex-direction: column;
 
   list-style-type: disc;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
   display: flex;
   flex-direction: column;
   align-items: justify;
-  padding-inline-start: 20px !important;
+  padding-inline-start: 1.25rem !important;
   flex-wrap: wrap;
 }

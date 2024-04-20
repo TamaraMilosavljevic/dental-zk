@@ -4,17 +4,17 @@
   justify-content: center;
   flex-direction: column;
   background-color: #1a2433;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 #footer-banner {
   display: flex;
   flex: 1;
   flex-direction: row;
-  padding-bottom: 5px;
+  padding-bottom: 0.313rem;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.249);
+  border-bottom: 0.063rem solid rgba(255, 255, 255, 0.249);
 }
 
 #footer-banner-left {
@@ -32,7 +32,7 @@
 }
 
 #footer-banner-text {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: whitesmoke;
   font-weight: 800;
   line-height: 100%;
@@ -40,7 +40,7 @@
 }
 
 #banner-button-container {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 #banner-button {
@@ -54,13 +54,13 @@
   box-sizing: border-box;
   position: static;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='whitesmoke' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z' /%3E%3C/svg%3E");
-  background-size: 35px;
+  background-size: 2.188rem;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #footer-button:hover {
-  box-shadow: 1px 0px 3px rgba(14, 34, 73, 0.594);
+  box-shadow: 0.063rem 0px 0.188rem rgba(14, 34, 73, 0.594);
 }
 
 #footer-content {
@@ -70,13 +70,13 @@
   width: 100%;
   align-items: top;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 80px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.249);
+  padding-top: 1.875rem;
+  padding-bottom: 5rem;
+  border-bottom: 0.063rem solid rgba(255, 255, 255, 0.249);
 }
 
 .white-logo-small {
-  width: 45px;
+  width: 2.813rem;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
     contrast(100%);
 }
@@ -89,19 +89,19 @@
 
 .logo-container {
   display: flex;
-  gap: 5px;
+  gap: 0.313rem;
   align-items: center;
 }
 
 .dental-title {
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 800;
   color: white;
   margin: 0;
 }
 #about-us {
   color: whitesmoke;
-  width: 330px;
+  width: 20.625rem;
 
   display: flex;
   text-align: baseline;
@@ -109,10 +109,10 @@
 
   font-family: Manrope, Arial;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 170%;
 
-  padding-top: 35px;
+  padding-top: 2.188rem;
   color: rgba(245, 245, 245, 0.73);
   white-space: break-space;
 }
@@ -128,12 +128,12 @@
 
   font-family: Manrope, Arial;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: rgba(245, 245, 245, 0.73);
 
   flex-wrap: nowrap;
-  line-height: 16px;
-  padding-right: 50px;
+  line-height: 1rem;
+  padding-right: 3.125rem;
 }
 
 #address-paragraph,
@@ -144,34 +144,34 @@
 }
 
 #services-item {
-  line-height: 12px;
+  line-height: 0.75rem;
   padding: 0;
 }
 
 #copyright-paragraph {
   display: flex;
   align-items: flex-end;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #eaeefb;
 }
 
 hr {
   width: 100%;
-  height: 1px;
+  height: 0.063rem;
   color: rgba(255, 255, 255, 0.249);
   margin: 0;
 }
 
 #icons {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   stroke: white;
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 #services-headline {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: whitesmoke;
 }

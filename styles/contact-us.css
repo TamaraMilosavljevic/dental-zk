@@ -3,9 +3,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  bottom: 600px;
-  padding-top: 150px;
-  padding-bottom: 200px;
+  bottom: 37.5rem;
+  padding-top: 9.375rem;
+  padding-bottom: 12.5rem;
 }
 
 #contact-info {
@@ -16,13 +16,13 @@
 }
 
 #how-to {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
 }
 
 #working-hours,
 #address,
 #phone-number {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: left;
 }

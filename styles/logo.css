@@ -13,16 +13,16 @@
   animation-fill-mode: forwards;
 }
 .dental-logo-title {
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 #logo-subtitle {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
-  border-bottom: 20px;
+  border-bottom: 1.25rem;
   margin: 0;
   color: #4397f7;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: Manrope, Arial;
 }
 @keyframes move {
@@ -31,18 +31,18 @@
   }
 
   50% {
-    background-position: 160px;
+    background-position: 10rem;
   }
 
   100% {
-    background-position: 356px;
+    background-position: 22.25rem;
   }
 }
 .dental-logo {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
   color: rgb(2, 119, 251);
-  border-bottom: 20px;
+  border-bottom: 1.25rem;
   margin: 0;
 }
 .dental-logo,
@@ -61,6 +61,6 @@
   animation-fill-mode: forwards;
 }
 #logo-image {
-  width: 45px;
+  width: 2.813rem;
   mix-blend-mode: multiply;
 }

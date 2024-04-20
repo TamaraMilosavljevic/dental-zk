@@ -27,24 +27,24 @@ html {
   #customer-reviews {
     flex-wrap: wrap;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 1.875rem;
   }
 
   .review-card {
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 0.625rem;
+    line-height: 1rem;
     align-content: center;
     justify-content: space-between;
-    padding: 10px 30px 10px 30px;
+    padding: 0.625rem 1.875rem 0.625rem 1.875rem;
   }
 
   #headline-reviews {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   #left-section {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;
   }
   .dental-logo-title {
     flex-wrap: wrap;
@@ -56,31 +56,31 @@ html {
   #navigation-section {
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 20px;
+    padding-top: 1.25rem;
+    border-top: 0.063rem solid lightgray;
+    border-bottom: 0.063rem solid lightgray;
+    padding-bottom: 1.25rem;
   }
 
   button {
-    font-size: 16px;
-    padding-left: 25px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding-left: 1.563rem;
+    padding-right: 0.938rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
   }
 
   #banner-text {
-    font-size: 40px;
+    font-size: 2.5rem;
     flex-wrap: wrap;
     position: absolute;
   }
 
   #banner-button {
-    background-size: 24px;
+    background-size: 1.5rem;
     position: absolute;
     top: 170px;
-    right: 290px;
+    right: 18.125rem;
   }
 
   #image-section {
@@ -96,7 +96,7 @@ html {
   }
 
   #headline-prices {
-    font-size: 30px !important; /* Adjust the font size as needed */
+    font-size: 1.875rem !important; /* Adjust the font size as needed */
   }
 
   #services-prices-list,
@@ -109,7 +109,7 @@ html {
 
     width: 50%;
 
-    padding: 10px 10px 10px 50px;
+    padding: 0.625rem 0.625rem 0.625rem 3.125rem;
     align-items: center;
 
     border-radius: 8%;
@@ -117,7 +117,7 @@ html {
 
   .services-prices-list-left,
   .services-prices-list-right {
-    font-size: 12px !important;
+    font-size: 0.75rem !important;
   }
 
   #footer {
@@ -130,22 +130,22 @@ html {
   }
 
   #how-to {
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
-    top: 200px;
+    top: 12.5rem;
     align-items: center;
   }
 
   #working-hours,
   #address,
   #phone-number {
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: left;
-    bottom: 50px;
+    bottom: 3.125rem;
   }
 
   #map {
     object-fit: contain;
-    resize: horizontal 200px;
+    resize: horizontal 12.5rem;
   }
 }
