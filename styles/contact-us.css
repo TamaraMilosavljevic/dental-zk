@@ -1,11 +1,17 @@
 #contact-us {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   bottom: 37.5rem;
   padding-top: 9.375rem;
-  padding-bottom: 12.5rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.google-map {
+  width: 60rem;
+  height: 40rem;
+  border-radius: 1rem;
 }
 
 #contact-info {
@@ -13,6 +19,7 @@
   flex-direction: column;
   color: rgb(14, 34, 73);
   align-items: baseline;
+  padding: 0 1.25rem;
 }
 
 #how-to {
@@ -25,4 +32,21 @@
 #phone-number {
   font-size: 1.25rem;
   text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .google-map {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .google-map {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30rem;
+    width: 30rem;
+  }
 }
